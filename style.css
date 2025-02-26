@@ -1,0 +1,111 @@
+
+body {
+  background-color: #3B4664;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFFFFF;
+}
+#id{
+  width: 58;
+height: 20;
+top: 148px;
+left: 466px;
+font-family: Inter;
+font-weight: 800;
+font-size: 28px;
+line-height: 33.89px;
+letter-spacing: 0%;
+
+
+}
+
+#input {
+  background-color: #181F32;
+  color: #ffffff;
+  width: 536px;
+  height: 80px;
+  border-radius: 12px;
+  text-align: right;
+  font-size: 2rem;
+  padding-right: 20px;
+  border: none;
+}
+
+.c {
+  width: 536px;
+  background-color: #252D44;
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #EAE3DB;
+  color: #3B4664;
+  border: none;
+  font-size: 30px;
+  font-weight: 800px;
+  line-height: 36.31px;
+  font-family:"Inter", sans-serif;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.button:hover {
+  background-color: #D1CBC2;
+}
+
+.reset {
+  grid-column: span 2;
+  background-color: #647299;
+  color: white;
+  width: 222.44px;
+  height: 60px;
+  border-radius: 11.52;
+}
+
+.equals {
+  grid-column: span 2;
+  background-color: #D13F30;
+  color: white;
+  width: 222.44px;
+  height: 60px;
+  border-radius: 11.52;
+}
+#DEL{
+background-color: #647299;
+width: 100px;
+height: 60px;
+border-radius: 12px;
+color: #FFFFFF;
+font-size: 30px;
+font-weight: 800px;
+line-height: 36.31px;
+font-family:"Inter", sans-serif;
+cursor: pointer;
+transition: 0.2s;
+
+
+}
